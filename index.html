@@ -1,59 +1,156 @@
-
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Coming Soon</title>
-    <link rel="stylesheet" href="./css/index.css">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="LIVORA Production builds digital experiences that bring creators and communities together through live entertainment and technology.">
+  <meta name="theme-color" content="#090909">
+  <title>LIVORA Production | Create. Connect. Shine.</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Manrope:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/styles.css">
+  <link rel="icon" href="assets/logo/app_logo.webp" type="image/x-icon">
 </head>
-
 <body>
+  <header class="site-header">
+    <a class="brand" href="#home" aria-label="LIVORA home">
+      <span class="brand-mark">
+        <img src="assets/logo/app_logo.webp" alt="LIVORA logo mark" width="48" height="48">
+      </span>
+      <span>LIVORA<span class="brand-light">PRODUCTION</span></span>
+    </a>
+    <button class="menu-toggle" aria-label="Open navigation" aria-expanded="false">☰</button>
+    <nav class="nav">
+      <a href="#home">Home</a><a href="#about">About</a><a href="#platform">Platform</a>
+      <a href="#features">Features</a><a href="#partners">For Partners</a><a href="#contact" class="nav-cta">Contact Us</a>
+    </nav>
+  </header>
 
-    <div class="glow"></div>
-
-    <div class="container">
-
-        <!-- Replace logo.png with your logo image -->
-        <img src="./assets/image/logo.png" alt="Company Logo" class="logo">
-
-        <h1>COMING SOON</h1>
-
-        <p>
-            Something amazing is on its way!<br>
-            We are working hard to bring you something special.
-            Stay tuned.
-        </p>
-
-        <div class="countdown">
-            <div class="time-box">
-                <span id="days">00</span>
-                <small>DAYS</small>
-            </div>
-
-            <div class="time-box">
-                <span id="hours">00</span>
-                <small>HOURS</small>
-            </div>
-
-            <div class="time-box">
-                <span id="minutes">00</span>
-                <small>MINUTES</small>
-            </div>
-
-            <div class="time-box">
-                <span id="seconds">00</span>
-                <small>SECONDS</small>
-            </div>
+  <main>
+    <section class="hero" id="home">
+      <div class="hero-glow"></div>
+      <div class="hero-content">
+        <p class="eyebrow"><span class="eyebrow-line"></span> THE NEXT WAVE OF LIVE ENTERTAINMENT</p>
+        <h1>Every moment.<br><span class="gold-text">A chance to shine.</span></h1>
+        <p class="hero-copy">We create digital experiences that bring people closer, empower creators and turn everyday moments into meaningful connections.</p>
+        <div class="hero-actions">
+          <a class="btn btn-gold" href="#platform">Discover LIVORA <span>↗</span></a>
+          <a class="btn btn-outline" href="#about">Explore our story</a>
         </div>
-
-        <div class="footer">
-            &copy; <span id="year"></span> All Rights Reserved.
+        <div class="hero-note"><span class="pulse-dot"></span> Building a connected creator community</div>
+      </div>
+      <div class="hero-art" aria-label="Abstract live entertainment illustration">
+        <div class="orbit orbit-one"></div><div class="orbit orbit-two"></div>
+        <!-- <div class="phone">
+          <div class="phone-top"><span></span><span></span><span></span></div>
+          <div class="live-label"><i></i> LIVE NOW</div>
+          <div class="avatar avatar-main">L</div>
+          <div class="phone-caption">Your stage.<br><b>Your community.</b></div>
+          <div class="phone-bottom"><span>♡</span><span>▣</span><span>✦</span><span>➤</span></div>
+        </div> -->
+        <div>
+          <img src="assets/image/mobile_view.png" alt="Mobile view of LIVORA app" width="400">
         </div>
+        <div class="float-card card-live"><span class="mini-icon">◉</span><div><b>Go live</b><small>Share your moment</small></div></div>
+        <div class="float-card card-gift"><span class="mini-icon">✧</span><div><b>Send a gift</b><small>Celebrate creators</small></div></div>
+        <div class="float-card card-connect"><span class="mini-icon">◎</span><div><b>Connect globally</b><small>Find your people</small></div></div>
+      </div>
+      <a class="scroll-cue" href="#about">SCROLL TO EXPLORE <span>↓</span></a>
+    </section>
 
+    <section class="intro section-pad" id="about">
+      <div class="section-kicker">01 / ABOUT LIVORA</div>
+      <div class="intro-grid">
+        <h2>Technology with a <span class="gold-text">human touch.</span></h2>
+        <div><p class="lead">LIVORA Production is a digital entertainment and technology company focused on creating engaging platforms for creators, audiences and communities.</p>
+        <p>Our vision is simple: make it easier for people to express themselves, discover talent and build genuine connections through thoughtful technology and responsible digital experiences.</p>
+        <a class="text-link" href="#contact">Get to know us <span>↗</span></a></div>
+      </div>
+    </section>
+
+    <section class="platform section-pad" id="platform">
+      <div class="section-kicker">02 / OUR PLATFORM</div>
+      <div class="platform-panel">
+        <div class="platform-copy">
+          <span class="pill">INTRODUCING LIVORA LIVE</span>
+          <h2>Where creators<br>meet their <span class="gold-text">community.</span></h2>
+          <p>LIVORA LIVE is being built as an interactive social entertainment experience, bringing live moments, group conversations and creator-fan connections into one place.</p>
+          <a class="btn btn-gold" href="#contact">Stay in the loop <span>↗</span></a>
+          <p class="fine-print">App availability and features may vary by region and release stage.</p>
+        </div>
+        <div class="feature-visual">
+          <div class="visual-ring"></div>
+          <div class="visual-tile tile-one"><span>♫</span><b>Live moments</b></div>
+          <div class="visual-tile tile-two"><span>✦</span><b>Virtual gifts</b></div>
+          <div class="visual-tile tile-three"><span>◎</span><b>Party rooms</b></div>
+          <div class="visual-core">
+            <img src="assets/logo/app_logo.webp" alt="LIVORA logo mark" width="65" height="65">
+            <span>LIVE</span>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="features section-pad" id="features">
+      <div class="section-kicker">03 / THE EXPERIENCE</div>
+      <div class="section-heading"><h2>Made for moments<br><span class="gold-text">worth sharing.</span></h2><p>Tools designed to make participation, creativity and community feel effortless.</p></div>
+      <div class="feature-grid">
+        <article class="feature-card"><span class="feature-icon">◉</span><h3>Live Streaming</h3><p>Give creators a stage to share their talent, stories and everyday moments in real time.</p><span class="card-number">01</span></article>
+        <article class="feature-card"><span class="feature-icon">⚔</span><h3>PK Battles</h3><p>Bring friendly competition and audience participation into exciting live experiences.</p><span class="card-number">02</span></article>
+        <article class="feature-card"><span class="feature-icon">▦</span><h3>Party Rooms</h3><p>Make space for group conversations, shared interests and interactive communities.</p><span class="card-number">03</span></article>
+        <article class="feature-card"><span class="feature-icon">✧</span><h3>Virtual Gifting</h3><p>Let audiences celebrate and appreciate the creators and moments they enjoy.</p><span class="card-number">04</span></article>
+        <article class="feature-card"><span class="feature-icon">♡</span><h3>Creator Community</h3><p>Help people discover new voices, build connections and grow their audience.</p><span class="card-number">05</span></article>
+        <article class="feature-card"><span class="feature-icon">⌘</span><h3>Creator & Agency Support</h3><p>Explore opportunities to collaborate, support creators and build communities.</p><span class="card-number">06</span></article>
+      </div>
+    </section>
+
+    <section class="partners section-pad" id="partners">
+      <div class="section-kicker">04 / GROW WITH LIVORA</div>
+      <div class="partner-grid">
+        <div><h2>Good things happen<br>when we <span class="gold-text">create together.</span></h2><p class="lead">Whether you are a creator, talent manager or potential business partner, we would love to hear from you.</p></div>
+        <div class="partner-options">
+          <a class="partner-option" href="#contact"><span class="partner-symbol">✦</span><span><b>Creators & Hosts</b><small>Bring your talent and ideas to a wider community.</small></span><span class="arrow">↗</span></a>
+          <a class="partner-option" href="#contact"><span class="partner-symbol">▣</span><span><b>Agencies & Managers</b><small>Discuss creator support and partnership opportunities.</small></span><span class="arrow">↗</span></a>
+          <a class="partner-option" href="#contact"><span class="partner-symbol">◇</span><span><b>Business Partners</b><small>Let's explore technology and business collaborations.</small></span><span class="arrow">↗</span></a>
+        </div>
+      </div>
+    </section>
+
+    <section class="contact section-pad" id="contact">
+      <div class="section-kicker">05 / LET'S CONNECT</div>
+      <div class="contact-panel">
+        <div><h2>Have an idea?<br><span class="gold-text">Let's talk.</span></h2><p>For business enquiries, creator partnerships, agency discussions or support, send our team a message.</p>
+          <div class="contact-detail"><small>EMAIL</small><a href="mailto:support@livoraproduction.com">support@livoraproduction.com</a></div>
+          <div class="contact-detail"><small>PHONE</small><a href="tel:+919928763303">+91 9928763303</a></div>
+          <div class="contact-detail"><small>COMPANY</small><span>LIVORA PRODUCTION PVT. LTD.</span></div>
+          <div class="contact-detail"><small>OFFICE ADDRESS</small><span>B565 Mangalam Balaji City, Sirsi Bindayka, Jaipur, Rajasthan, India – 302012</span></div>
+        </div>
+        <form class="contact-form" id="contactForm">
+          <label>Your name<input name="name" type="text" placeholder="Enter your name" required></label>
+          <label>Email address<input name="email" type="email" placeholder="you@example.com" required></label>
+          <label>I'm interested in<select name="subject"><option>General enquiry</option><option>Creator / Host partnership</option><option>Agency partnership</option><option>Business collaboration</option><option>App support</option></select></label>
+          <label>Your message<textarea name="message" rows="4" placeholder="Tell us how we can help..." required></textarea></label>
+          <button class="btn btn-gold submit-btn" type="submit">Prepare email <span>↗</span></button>
+          <p class="form-note">This static form opens your email app. Connect a form service or backend to receive submissions directly on the website.</p>
+        </form>
+      </div>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <div class="footer-top">
+      <a class="brand" href="#home">
+        <span class="brand-mark">
+          <img src="assets/logo/app_logo.webp" alt="LIVORA logo mark" width="48" height="48">
+        </span>
+        <span>LIVORA<span class="brand-light">PRODUCTION</span></span>
+      </a>
+      <p>Creating connections. Empowering creators.<br>Building what comes next.</p>
+      <a href="#home" class="back-top">BACK TO TOP ↑</a>
     </div>
-
-    <script src="./js/index.js"></script>
-
+    <div class="footer-bottom"><span>© <span id="year"></span> LIVORA PRODUCTION PVT. LTD. All rights reserved.</span><div><a href="pages/privacy.html">Privacy Policy</a><a href="pages/terms.html">Terms & Conditions</a></div></div>
+  </footer>
+  <script src="js/script.js"></script>
 </body>
 </html>
